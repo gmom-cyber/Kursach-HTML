@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Контакты</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/contacts.css">
+		<link rel="shortcut icon" href="image/ico.png" type="image/png">
+	</head>
+	<body>
+		<script src="js/panel.js"></script>
+		<section class="section-sm bg-default">
+			<div class="container">
+				<div class="contacts" align="center">
+					<h1>Контакты</h1>
+				</div>
+				<div class="row row-40">
+					<div class="col-md-1 col-lg-1">
+						<h3 class="mb">Контактные данные:</h3>
+						<ul class = "rounded">
+							<li>Адрес: Уездный город N, проспект Гоголя, дом 13.</li>
+							<li>Телефон: 1(555) 555 55 55</li>
+							<li>E-mail: exemple@mirea.ru</li>
+							<li>График работы: Понедельник с 15:00 до 17:00</li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-lg-2">
+						<h3 class="mb">Задайте вопрос и мы на него ответим.</h3>
+						<!--Mailform-->
+						<form>
+							<div class="form-wrap">
+								<input class="form-input" id="contact-name" type="text" name="name" placeholder="Имя" required="">
+							</div>
+
+							<div class="form-wrap">
+								<input class="form-input" id="contact-phone" type="tel" name="phone" placeholder="Телефон" minlength="7" required="">
+							</div>
+							<div class="form-wrap">
+								<textarea class="form-input" id="contact-message" name="message" placeholder="Ваш вопрос"></textarea>
+							</div>
+							<button class="button button-primary" name="submit" type="submit">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

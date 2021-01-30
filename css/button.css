@@ -1,0 +1,42 @@
+.but{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	padding: 15px 20px;
+	font-weight: bold;
+	background: -o-linear-gradient(225deg, #4dd8ef, #ffffff, #4dd8ef, #ffffff, #4dd8ef);
+	background: linear-gradient(225deg, #4dd8ef, #ffffff, #4dd8ef, #ffffff, #4dd8ef);
+    background-size: 300% 300%;
+    -webkit-animation: anima 10s ease infinite;
+            animation: anima 10s ease infinite;
+	-webkit-box-shadow: 2px 2px 2px #000000;
+	        box-shadow: 2px 2px 2px #000000;
+	-webkit-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.but:hover{
+	-webkit-animation: anima 5s ease infinite;
+	        animation: anima 5s ease infinite;
+}
+.but:active{
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	-webkit-animation: none;
+	        animation: none;
+	background: #FFFFFF;
+}
+@-webkit-keyframes anima {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes anima {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,0 +1,27 @@
+@import url('font.css');
+@import url('panel.css');
+body{
+	background: #E0FFFF;
+	font-size: 18px;
+	margin: 0;
+}
+#konbtent{
+	padding: 60px 40px 40px 40px;
+}
+img {
+	width: 70%;
+    max-width: 340px;
+}
+p{
+	text-align: justify;
+}
+h1, h3, #cent{
+	text-align: center;
+}
+#ind {
+	text-decoration:none;
+}
+#ind:hover {
+	color: #800000;
+	text-decoration: underline;
+}

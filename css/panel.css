@@ -1,0 +1,38 @@
+nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	top: 0;
+    left: 0;
+	width: 100%;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	height: 60px;
+	background-color: #00FFFF;
+	border-bottom: 2px solid #bebebe;
+	z-index: 2;
+}
+nav > a{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	text-decoration:none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F73E24;
+	letter-spacing: 1px;
+	margin: auto 0;
+}
+@media screen and (max-width: 600px) {
+	nav > a{
+		font-size: 3vw;
+	}
+}
+nav > a:hover{
+	letter-spacing: 5px;
+	color: #c83eff;
+}
